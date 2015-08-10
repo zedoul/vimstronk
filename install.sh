@@ -1,3 +1,7 @@
+# export 
+export EDITOR=vim
+export VISUAL=vim
+
 # Remove previously installed symbolic links
 if [ -L "$HOME/.vimrc" ]; then
   rm -f ~/.vimrc
