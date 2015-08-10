@@ -11,5 +11,5 @@ fi
 
 # Create new symbolic links 
 ln -s `pwd`/vimrc $HOME/.vimrc
-ln -s ./mkctags.sh /usr/local/bin/mkctags.sh
-ln -s ./mkcscope.sh /usr/local/bin/mkcscope.sh
+ln -s `pwd`/mkctags.sh /usr/local/bin/mkctags.sh
+ln -s `pwd`/mkcscope.sh /usr/local/bin/mkcscope.sh
